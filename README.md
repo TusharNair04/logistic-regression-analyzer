@@ -42,7 +42,7 @@ McFadden's R-squared is a measure of model fit for logistic regression models. I
 2. **Log-Likelihood of the Null Model**: Calculate the log-likelihood of the null model (a model with only an intercept).
 3. **McFadden's R-Squared**: Compute R-squared using the formula:
 
-![alt text](images\image-1.png)
+![alt text](/image/image-1.png)
 
 ### Adjusted R-Squared
 
@@ -52,7 +52,7 @@ Adjusted R-squared adjusts the R-squared value based on the number of predictors
 2. **Number of Predictors (p)**: Number of predictor variables.
 3. **Adjusted R-Squared**: Compute adjusted R-squared using the formula:
 
-![alt text](images\image-2.png)
+![alt text](/image/image-2.png)
 
 ### Example
 
