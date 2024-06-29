@@ -1,4 +1,3 @@
-
 # Logistic Regression Analyzer
 
 A Jupyter notebook to analyze logistic regression models, calculate p-values for coefficients, and compute R-squared and adjusted R-squared.
@@ -43,10 +42,7 @@ McFadden's R-squared is a measure of model fit for logistic regression models. I
 2. **Log-Likelihood of the Null Model**: Calculate the log-likelihood of the null model (a model with only an intercept).
 3. **McFadden's R-Squared**: Compute R-squared using the formula:
 
-   \[
-   R^2 = 1 - \left( rac{	ext{Log-Likelihood of the Fitted Model}}{	ext{Log-Likelihood of the Null Model}} 
-ight)
-   \]
+![alt text](image.png)
 
 ### Adjusted R-Squared
 
@@ -57,18 +53,10 @@ Adjusted R-squared adjusts the R-squared value based on the number of predictors
 3. **Adjusted R-Squared**: Compute adjusted R-squared using the formula:
 
    \[
-   	ext{Adjusted } R^2 = 1 - \left( rac{(1 - R^2) \cdot (n - 1)}{n - p - 1} 
-ight)
+   ext{Adjusted } R^2 = 1 - \left( rac{(1 - R^2) \cdot (n - 1)}{n - p - 1}
+   ight)
    \]
 
 ### Example
 
 The provided notebook demonstrates how to use the `LogisticRegressionAnalyzer` class to fit a logistic regression model, calculate p-values, R-squared, and adjusted R-squared. Simply replace the data loading section with your dataset, and run the notebook to see the results.
-
-## Testing
-
-Run the tests using `unittest`:
-
-```bash
-python -m unittest discover -s tests
-```
